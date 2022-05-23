@@ -12,7 +12,7 @@ on:
       - 'master'
 env:
   REGISTRY_REG: registry.cosanostra-cloud.de
-  IMAGE_OWNER: docker-build/alcapone1933/simple-fileserver
+  IMAGE_OWNER: docker-build/alcapone1933
   IMAGE_NAME: simple-fileserver
 
 permissions: 
