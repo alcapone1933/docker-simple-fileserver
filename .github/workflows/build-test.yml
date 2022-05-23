@@ -15,6 +15,9 @@ env:
   IMAGE_OWNER: docker-build/alcapone1933/simple-fileserver
   IMAGE_NAME: simple-fileserver
 
+permissions: 
+  packages: write
+
 jobs:
   build_reg
     runs-on: ubuntu-latest
