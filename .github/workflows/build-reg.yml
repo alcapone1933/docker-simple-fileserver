@@ -37,8 +37,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ${{ env.REGISTRY_REG }}
-          username: ${{ secrets.DOCKERHUBREG_USERNAME }}
-          password: ${{ secrets.DOCKERHUBREG_TOKEN }}
+          username: ${{ secrets.DOCKERREG_USER }}
+          password: ${{ secrets.DOCKERREG_TOKEN }}
       - name: Docker meta Dockerhubreg
         id: meta_reg # you'll use this in the next step
         uses: docker/metadata-action@v3
