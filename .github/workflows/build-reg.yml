@@ -19,7 +19,7 @@ permissions:
   packages: write
 
 jobs:
-  build_reg
+  build_reg:
     runs-on: ubuntu-latest
     steps:
       # Get the repository's code
