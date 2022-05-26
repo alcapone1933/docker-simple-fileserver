@@ -9,9 +9,12 @@ version: '3'
 services:
   fileserver:
     image: alcapone1933/simple-fileserver:latest
+    container_name: simple-fileserver
+    restart: always
     volumes:
-      - .:/app
+      - /path/to/your/folder:/app
     ports:
       - 8000:8000
+
 ```
 
