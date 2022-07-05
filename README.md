@@ -11,7 +11,7 @@ docker run -d \
 -p 8080:8000 \
 --restart always \
 --name simple-fileserver \
--v /path/to/your/folder:/app
+-v /path/to/your/folder:/app \
 alcapone1933/simple-fileserver:latest
 ```
 
