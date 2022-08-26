@@ -41,8 +41,6 @@ services:
 
 * * *
 
-* * *
-
 ## Volume params
 
 | Name       | Value       | Example                      |
