@@ -18,6 +18,8 @@ trigger:
   - master
   event:
   - custom
+  - push
+  - pull_request
 
 ---
 kind: pipeline
@@ -42,6 +44,8 @@ trigger:
   - master
   event:
   - custom
+  - push
+  - pull_request
 
 depends_on:
   - BUILD-TEST
