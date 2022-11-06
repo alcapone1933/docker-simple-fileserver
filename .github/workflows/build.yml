@@ -1,17 +1,17 @@
 name: Build Github and Dockerhub
 
 # Controls when the workflow will run
-on:
-  schedule:
-    - cron: '30 4 * * 1'
-  push:
-    branches:
-      - 'master'
-    tags:
-      - 'v*.*.*'
-  pull_request:
-    branches:
-      - 'master'      
+#on:
+#  schedule:
+#    - cron: '30 4 * * 1'
+#  push:
+#    branches:
+#      - 'master'
+#    tags:
+#      - 'v*.*.*'
+#  pull_request:
+#    branches:
+#      - 'master'      
 env:
 # Use docker.io for Docker Hub if empty
   REGISTRY_GITHUB: ghcr.io
