@@ -19,7 +19,7 @@ trigger:
   event:
   - custom
   - push
-  - pull_request
+  # - pull_request
   - cron
   cron:
   - weekly
@@ -47,7 +47,7 @@ trigger:
   event:
   - custom
   - push
-  - pull_request
+  # - pull_request
   - cron
   cron:
   - weekly
